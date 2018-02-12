@@ -22,7 +22,7 @@ class HomeViewController: UIViewController {
     }
 
     @IBAction func makeAlamofireRequest(_ sender: Any) {
-        print("making alamofire request...")
+        print("making alamofire request....")
         Alamofire.request("https://httpbin.org/get")
     }
     
