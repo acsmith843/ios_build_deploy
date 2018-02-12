@@ -243,7 +243,7 @@
 				TargetAttributes = {
 					D25BE03A2031EEB0006625F7 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					D25BE04E2031EEB0006625F7 = {
 						CreatedOnToolsVersion = 9.2;
@@ -640,14 +640,15 @@
 			baseConfigurationReference = 0D1942693E14B44956BECC9C /* Pods-Test Build Deploy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38WXAQKV6Q;
 				INFOPLIST_FILE = "Test Build Deploy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = acs.buildanddeploy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "14d58be6-e806-40c3-b08c-ef39c5b6fe58";
-				PROVISIONING_PROFILE_SPECIFIER = "Build & Deploy Profile";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -658,14 +659,15 @@
 			baseConfigurationReference = 5DF884965DAF09D181A347E3 /* Pods-Test Build Deploy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38WXAQKV6Q;
 				INFOPLIST_FILE = "Test Build Deploy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = acs.buildanddeploy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "14d58be6-e806-40c3-b08c-ef39c5b6fe58";
-				PROVISIONING_PROFILE_SPECIFIER = "Build & Deploy Profile";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
