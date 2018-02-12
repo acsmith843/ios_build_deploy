@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Alamofire
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func makeAlamofireRequest(_ sender: Any) {
+        print("making alamofire request...")
+        Alamofire.request("https://httpbin.org/get")
+    }
+    
 }
 
