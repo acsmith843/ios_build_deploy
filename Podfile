@@ -7,6 +7,8 @@ target 'Test Build Deploy' do
 
   # Pods for Test Build Deploy
   pod 'Alamofire', '~> 4.5'
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   target 'Test Build DeployTests' do
     inherit! :search_paths
