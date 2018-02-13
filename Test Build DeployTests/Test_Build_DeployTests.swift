@@ -21,6 +21,10 @@ class Test_Build_DeployTests: XCTestCase {
         super.tearDown()
     }
     
+    func testFailure() {
+        XCTAssert(app.staticTexts["Volley"].exists)
+    }
+    
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
